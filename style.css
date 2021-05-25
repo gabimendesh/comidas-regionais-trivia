@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee9e9;
+  display: block;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Lexend, sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  background-color: #f08080;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+}
+
+#helloUser {
+  font-family: Lexend, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+}
+
+#respostascertas {
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  font-family: Lexend, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 50%;
+}
+
+#correta1,
+#correta2,
+#correta3 {
+  background-color: #cccccc;
+  padding: 15px;
+  font-size: 1.5rem;
+  line-height: 22px;
+  color: green;
+  max-width: 500px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+}
+
+#respostaserradas {
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  font-family: Lexend, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+#incorreta1,
+#incorreta2,
+#incorreta3 {
+  background-color: #cccccc;
+  padding: 15px;
+  font-size: 1.5rem;
+  line-height: 22px;
+  color: red;
+  max-width: 500px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+}
